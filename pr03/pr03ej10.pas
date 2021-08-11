@@ -1,18 +1,18 @@
 program p03ej10;
 
-var num: integer;
+var	num: integer;
 
 procedure tres_cifras (num: integer);
-var aux: integer;
-begin
-aux := num div 100;
-write(aux);
-num := num - aux * 100;
-aux := num div 10;
-write(aux);
-num := num - aux * 10;
-write(num);
-end;
+	var aux: integer;
+	begin
+	aux := num div 100;
+	write(aux);
+	num := num - aux * 100;
+	aux := num div 10;
+	write(aux);
+	num := num - aux * 10;
+	write(num);
+	end;
 
 begin
 
