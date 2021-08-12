@@ -1,7 +1,6 @@
 program pr03ej15;
 
-var
-	c1, c2, c3: char;
+var	c1, c2, c3: char;
 	n1, n2, n3, n: integer;
 
 (*Procedimiento que convierte un solo dígito*)
