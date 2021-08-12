@@ -15,7 +15,7 @@ write ('Ingrese los valores de d, e y f separados por espacios: ');
 readln (d, e, f);
 
 (*Cálculo del determinante*)
-det := a * e + b * d;
+det := a * e - b * d;
 
 (*Salida de datos*)
 if det = 0
