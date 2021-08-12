@@ -1,7 +1,6 @@
 program pr03ej13;
 
-var
-	n, d, n1, n2, n3, n4: integer;
+var	n, d, n1, n2, n3, n4: integer;
 	c1, c2, c3, c4: char;
 	b: boolean;
 
@@ -16,7 +15,7 @@ procedure digito (n: integer; var c: char; var b: boolean);
 		end
 	else
 		c := ' '
-end;
+	end;
 
 begin
 
