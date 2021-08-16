@@ -1,6 +1,7 @@
 program pr04ej07;
 
-const c = '*';
+const
+c = '*';
 
 var
 n, i, j : integer;
