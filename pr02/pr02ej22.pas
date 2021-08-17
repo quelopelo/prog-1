@@ -1,5 +1,4 @@
 program pr02ej22;
-
 (*Programa que pasa a base decimal un número de tres cifras en base octal*)
 
 var
