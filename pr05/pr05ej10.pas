@@ -8,11 +8,10 @@ begin
 write('Operación: ');
 
 read(res);
-repeat
-read(car)
-until car <> ' ';
+repeat	read(car)
+until	car <> ' ';
 
-while car <> '=' do
+while	car <> '=' do
 begin
 	read(num);
 	case car of
@@ -21,9 +20,8 @@ begin
 		'*':	res := res * num;
 		'/':	res := res div num
 	end;
-	repeat
-	read(car)
-	until car <> ' '
+	repeat	read(car)
+	until	car <> ' '
 end;
 
 writeln('Resultado: ', res:1)
