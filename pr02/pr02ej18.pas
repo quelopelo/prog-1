@@ -1,5 +1,4 @@
 program pr02ej18;
-
 (* Programa que calcula el error relativo de una medición*)
 
 var
