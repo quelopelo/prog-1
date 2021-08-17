@@ -13,7 +13,7 @@ write('Ingrese un texto: ');
 read(c1);
 write('Letras repetidas: ');
 
-while c1 <> fin do
+while	c1 <> fin do
 begin
 	read(c2);
 	if c2 = c1
@@ -22,8 +22,7 @@ begin
 		write(c1, c2, ' ');
 		read(c1)
 	end
-	else
-		c1 := c2
+	else	c1 := c2
 end;
 
 writeln
