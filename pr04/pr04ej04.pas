@@ -15,11 +15,9 @@ write('n = ');
 readln(n);
 
 (*Cálculo del primer múltiplo (a * n)*)
-if a mod n = 0
-then
-	a := a div n
-else
-	a := a div n + 1;
+if	a mod n = 0
+then	a := a div n
+else	a := a div n + 1;
 
 (*Cálculo del último múltiplo (b * n)*)
 b := b div n;
