@@ -10,6 +10,8 @@ write('Operación: ');
 read(res);
 repeat	read(car)
 until	car <> ' ';
+{En vez de este repeat, podría ir read(car) para resolver la parte a}
+{En vez de este repeat, podría ir read(car, car) para resolver la parte b}
 
 while	car <> '=' do
 begin
@@ -22,6 +24,8 @@ begin
 	end;
 	repeat	read(car)
 	until	car <> ' '
+	{En vez de este repeat, podría ir read(car) para resolver la parte a}
+	{En vez de este repeat, podría ir read(car, car) para resolver la parte b}
 end;
 
 writeln('Resultado: ', res:1)
