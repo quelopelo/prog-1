@@ -1,6 +1,6 @@
 program pr05ej10;
 
-var num, res : integer;
+var	num, res : integer;
 	car : char;
 
 begin
