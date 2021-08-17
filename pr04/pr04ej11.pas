@@ -18,12 +18,12 @@ readln(n);
 
 (*Cálculo del máximo*)
 max := a * m * m + b * m + c;
-for x := m+1 to n do
-	begin
+for	x := m+1 to n do
+begin
 	y := a * x * x + b * x + c;
-	if y > max then
+	if	y > max then
 		max := y
-	end;
+end;
 
 (*Salida de datos*)
 write('El valor máximo para x en el entorno de ');
