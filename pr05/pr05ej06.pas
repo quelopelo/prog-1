@@ -8,7 +8,7 @@ begin
 write('Ingrese una secuencia de números naturales: ');
 read(num);
 
-if num = -1	{Secuencia sin datos}
+if	num = -1	{Secuencia sin datos}
 then
 begin
 	writeln('Suma:      0');
@@ -16,20 +16,20 @@ begin
 	writeln('Mínimo:    no definido');
 	writeln('Máximo:    no definido')
 end
-else		{Secuencia con al menos un dato}
+else			{Secuencia con al menos un dato}
 begin
 	i := 0;
 	sum := 0;
 	max := num;
 	min := num;
-	while num <> -1 do
+	while	num <> -1 do
 	begin
 		i := i + 1;
 		sum := sum + num;
-		if num > max then
-			max := num;
-		if num < min then
-			min := num;
+		if	num > max
+		then	max := num;
+		if	num < min
+		then	min := num;
 		read(num)
 	end;
 	mean := sum / i;
