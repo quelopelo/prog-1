@@ -24,7 +24,7 @@ b := b div n;
 
 (*Cálculo de múltiplos y salida de datos*)
 write('Los múltiplos son: ');
-for i := a to b do
+for	i := a to b do
 	write((n * i):1, ' ');
 writeln
 
