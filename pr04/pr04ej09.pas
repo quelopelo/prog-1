@@ -13,7 +13,7 @@ readln(n);
 
 (*Cálculo de la potencia*)
 potencia := 1;
-for i := 1 to n do
+for	i := 1 to n do
 	potencia := potencia * x;
 
 (*Salida de datos*)
