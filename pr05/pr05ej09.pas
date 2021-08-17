@@ -12,7 +12,7 @@ not_div := true;
 i := 2;
 m := trunc(sqrt(n));
 
-while not_div and (i <= m) do
+while	not_div and (i <= m) do
 begin
 	not_div := n mod i > 0;
 	i := i + 1
