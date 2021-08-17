@@ -18,13 +18,13 @@ readln (d, e, f);
 det := a * e - b * d;
 
 (*Salida de datos*)
-if det = 0
-then writeln ('El sistema de ecuaciones no es compatible determinado')
+if	det = 0
+then	writeln ('El sistema de ecuaciones no es compatible determinado')
 else
-	begin
+begin
 	{writeln ('det = ', det);}
 	writeln ('x = ', (c * e - f * b) / det);
 	writeln ('y = ', (a * f - d * c) / det)
-	end
+end
 
 end.
