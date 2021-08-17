@@ -19,13 +19,13 @@ readln(n);
 
 (*Cálculo del máximo*)
 max := a * n*n + b * n*n + c * n*n - d * n - e * n + f;
-for x := -n to n do
-	for y := -n to n do
-		begin
+for	x := -n to n do
+	for	y := -n to n do
+	begin
 		z := a * x*x + b * x*y + c * y*y + d * x + e * y + f;
-		if z > max then
+		if	z > max then
 			max := z
-		end;
+	end;
 
 (*Salida de datos*)
 write('El valor máximo para x e y en el entorno de ');
