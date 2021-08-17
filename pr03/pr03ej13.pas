@@ -6,15 +6,14 @@ var	n, d, n1, n2, n3, n4: integer;
 
 (*Procedimiento que verifica las apariciones de a un dígito*)
 procedure digito (n: integer; var c: char; var b: boolean);
-	begin
+begin
 	if n = d
 	then
-		begin
+	begin
 		c := '+';
 		b := true
-		end
-	else
-		c := ' '
+	end
+	else	c := ' '
 end;
 
 begin
@@ -43,11 +42,10 @@ digito (n4, c4, b);
 (*Salida de datos*)
 if b
 then
-	begin
+begin
 	writeln (n:4);
 	writeln (c1, c2, c3, c4)
-	end
-else
-	writeln (d:1, ' no aparece en ', n:4)
+end
+else	writeln (d:1, ' no aparece en ', n:4)
 
 end.
