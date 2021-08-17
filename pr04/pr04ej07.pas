@@ -12,18 +12,16 @@ begin
 write('Ingrese un valor para n (n > 0): ');
 readln(n);
 if n = 1
-then
-	write('Ingrese 1 natural: ')
-else
-	write('Ingrese ', n:1, ' naturales: ');
+then	write('Ingrese 1 natural: ')
+else	write('Ingrese ', n:1, ' naturales: ');
 
 (*Salida de datos*)
 for i := 1 to n do
-	begin
+begin
 	read(n);
-	for j := 1 to n do
+	for	j := 1 to n do
 		write(c);
 	writeln
-	end
+end
 
 end.
