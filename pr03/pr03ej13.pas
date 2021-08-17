@@ -7,7 +7,7 @@ var	n, d, n1, n2, n3, n4: integer;
 (*Procedimiento que verifica las apariciones de a un dígito*)
 procedure digito (n: integer; var c: char; var b: boolean);
 begin
-	if n = d
+	if	n = d
 	then
 	begin
 		c := '+';
@@ -40,7 +40,7 @@ digito (n3, c3, b);
 digito (n4, c4, b);
 
 (*Salida de datos*)
-if b
+if	b
 then
 begin
 	writeln (n:4);
