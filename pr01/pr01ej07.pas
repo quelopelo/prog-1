@@ -1,4 +1,4 @@
-program	pr01ej07 (output);
+program	pr01ej07;
 
 const
 x1 = 6 DIV 2 - 6 MOD 5;

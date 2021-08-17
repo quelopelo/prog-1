@@ -1,7 +1,7 @@
 program pr04ej09;
 
-var	x, n, i : integer;	{2 bytes: -32768 a 32767}
-	potencia : longint;	{4 bytes: -2147483648 a 2147483647}
+var
+x, n, i, potencia: integer;
 
 begin
 
@@ -17,6 +17,7 @@ for i := 1 to n do
 	potencia := potencia * x;
 
 (*Salida de datos*)
-writeln('El resultado de ', x, ' elevado a la ', n, ' es: ', potencia)
+write('El resultado de ', x:1, ' elevado a la ', n:1);
+writeln(' es: ', potencia:1)
 
 end.

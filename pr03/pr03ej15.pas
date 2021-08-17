@@ -1,6 +1,7 @@
 program pr03ej15;
 
-var	c1, c2, c3: char;
+var
+	c1, c2, c3: char;
 	n1, n2, n3, n: integer;
 
 (*Procedimiento que convierte un solo dígito*)
@@ -39,6 +40,6 @@ convertir (c3, n3);
 n := n1 * 16*16 + n2 * 16 + n3;
 
 (*Salida de datos*)
-writeln('Hexadecimal ', c1, c2, c3, ' = Decimal ', n)
+writeln('Hexadecimal ', c1, c2, c3, ' = Decimal ', n:4)
 
 end.

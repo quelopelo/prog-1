@@ -1,4 +1,4 @@
-program pr01ej14 (input, output);
+program pr01ej14;
 
 var
 a, b, res : real;

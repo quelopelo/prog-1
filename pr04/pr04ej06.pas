@@ -8,7 +8,7 @@ begin
 write('Ingrese un valor para n (n > 1): ');
 readln(n);
 
-write('Ingrese ', n, ' enteros: ');
+write('Ingrese ', n:1, ' enteros: ');
 
 read(num);
 min := num;
@@ -23,7 +23,7 @@ for i := 2 to n do
 		max := num
 	end;
  
-writeln('El mayor entero ingresado es: ', max);
-writeln('El menor entero ingresado es: ', min)
+writeln('El mayor entero ingresado es: ', max:1);
+writeln('El menor entero ingresado es: ', min:1)
 
 end.

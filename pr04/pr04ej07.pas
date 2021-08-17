@@ -15,7 +15,7 @@ if n = 1
 then
 	write('Ingrese 1 natural: ')
 else
-	write('Ingrese ', n, ' naturales: ');
+	write('Ingrese ', n:1, ' naturales: ');
 
 (*Salida de datos*)
 for i := 1 to n do

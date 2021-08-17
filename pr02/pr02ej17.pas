@@ -1,4 +1,4 @@
-program pr02ej17 (input, output);
+program pr02ej17;
 
 var
 h1, h2, m1, m2, d, h, m : integer;
@@ -24,6 +24,6 @@ d := h div 24;
 h := h - d * 24;
 
 (*Salida de datos*)
-write ('Suma (d hhmm): ', d, ' ', h:2, m:2)
+writeln ('Suma (d hhmm): ', d:1, ' ', h:2, m:2)
 
 end.

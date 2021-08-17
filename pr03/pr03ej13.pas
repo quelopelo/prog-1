@@ -1,6 +1,6 @@
 program pr03ej13;
 
-var	n, d, n1, n2, n3, n4: integer;
+var n, d, n1, n2, n3, n4: integer;
 	c1, c2, c3, c4: char;
 	b: boolean;
 
@@ -15,7 +15,7 @@ procedure digito (n: integer; var c: char; var b: boolean);
 		end
 	else
 		c := ' '
-	end;
+end;
 
 begin
 
@@ -44,10 +44,10 @@ digito (n4, c4, b);
 if b
 then
 	begin
-	writeln (n);
+	writeln (n:4);
 	writeln (c1, c2, c3, c4)
 	end
 else
-	writeln (d, ' no aparece en ', n)
+	writeln (d:1, ' no aparece en ', n:4)
 
 end.

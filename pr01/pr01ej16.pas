@@ -1,4 +1,4 @@
-program pr01ej16 (input, output);
+program pr01ej16;
 
 (*Programa que calcula el área de un triángulo cuyos lados son de longitud a, b y c*)
 

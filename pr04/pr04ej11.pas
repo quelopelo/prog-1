@@ -27,6 +27,6 @@ for x := m+1 to n do
 
 (*Salida de datos*)
 write('El valor máximo para x en el entorno de ');
-writeln(m, ' a ', n, ' es ', max)
+writeln(m:1, ' a ', n:1, ' es ', max:1)
 
 end.

@@ -14,7 +14,7 @@ n, x, y, z, max : integer;
 begin
 
 (*Entrada de datos*)
-write('Ingrese un valor (entero) para n: ');
+write('Ingrese un valor (natural) para n: ');
 readln(n);
 
 (*Cálculo del máximo*)
@@ -29,6 +29,6 @@ for x := -n to n do
 
 (*Salida de datos*)
 write('El valor máximo para x e y en el entorno de ');
-writeln(-n, ' a ', n, ' es ', max)
+writeln(-n:1, ' a ', n:1, ' es ', max:1)
 
 end.
