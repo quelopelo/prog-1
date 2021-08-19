@@ -5,10 +5,11 @@ n, i, num, min, max : integer;
 
 begin
 
-write('Ingrese un valor para n (n > 1): ');
+write('Ingrese un valor para n (n > 0): ');
 readln(n);
-
-write('Ingrese ', n:1, ' enteros: ');
+if n = 1
+then	write('Ingrese 1 entero: ')
+else	write('Ingrese ', n:1, ' enteros: ');
 
 read(num);
 min := num;
@@ -18,9 +19,10 @@ for	i := 2 to n do
 begin
 	read(num);
 	if	num < min
-	then	min := num;
-	if	num > max
-	then	max := num
+	then	min := num
+	else
+		if	num > max
+		then	max := num
 end;
  
 writeln('El mayor entero ingresado es: ', max:1);
