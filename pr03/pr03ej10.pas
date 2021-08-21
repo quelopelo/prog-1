@@ -3,7 +3,7 @@ program p03ej10;
 var	num: integer;
 
 procedure tres_cifras (num: integer);
-var aux: integer;
+var	aux: integer;
 begin
 	aux := num div 100;
 	write(aux:1);
