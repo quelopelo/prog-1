@@ -1,8 +1,8 @@
 program pr06ej06;
 
-const	beneficio_unitario = 30;	{real (podría serlo)}
-	costo_fijo = 100;		{real (podría serlo)}
-	incremento_publicidad = 2;	{real (podría serlo)}
+const	beneficio_unitario = 30;	{integer (podría ser real)}
+	costo_fijo = 100;		{integer (podría ser real)}
+	incremento_publicidad = 2;	{integer (podría ser real)}
 	incremento_ventas = 1.5;	{real}
 
 var	ventas : integer;
