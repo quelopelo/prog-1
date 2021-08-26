@@ -3,6 +3,7 @@ program pr06ej04;
 var	i, n, num : integer;
 
 function es_primo(n : integer) : boolean;
+{Precondición: n >= 0}
 var	i, m : integer;
 begin
 	if	n mod 2 = 0
