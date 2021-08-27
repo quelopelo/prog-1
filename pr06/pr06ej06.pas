@@ -12,7 +12,7 @@ procedure calcular_beneficio(ventas : integer; publicidad : real;
 			     var beneficio : real);
 begin
 	beneficio := beneficio_unitario * ventas - publicidad - costo_fijo;
-	writeln(publicidad:7:0, '		', ventas:4, '	    ', beneficio:7:0)
+	writeln(publicidad:7:0, ' ':7, ventas:4, ' ':7, beneficio:7:0)
 end;
 
 begin
@@ -22,7 +22,7 @@ ventas := 20;
 publicidad := 200;
 
 (*Impresión de encabezado y primera fila*)
-writeln('Publicidad	Ventas	    Beneficio neto');
+writeln('Publicidad    Ventas    Beneficio neto');
 calcular_beneficio(ventas, publicidad, beneficio);
 
 (*Iteración para imprimir siguientes filas*)
