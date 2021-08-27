@@ -22,7 +22,7 @@ then    costo := peso_fijo;
 
 costo := costo_fijo + costo_onza * costo;
 
-writeln ('Peso	Costo');
-writeln (peso:4:2, '	$', costo:4:2)
+writeln ('Peso    Costo');
+writeln (peso:4:2, '    $', costo:4:2)
 
 end.
