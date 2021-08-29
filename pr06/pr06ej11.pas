@@ -31,7 +31,7 @@ readln(m, n);
 
 (*Procesamiento y salida de datos*)
 if	m > n
-then	write('Error: m debe ser mayor a n')
+then	write('Error: n debe ser mayor a m')
 else
 begin
 	writeln('Los primos gemelos entre ', m:1, ' y ', n:1, ' son: ');
