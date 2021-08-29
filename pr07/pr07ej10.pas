@@ -23,7 +23,7 @@ end;
 function area_cuadrilatero(x1, y1, x2, y2, x3, y3, x4, y4 : real) : real;
 var	d12, d13, d14, d23, d24, d34 : real;
 begin
-	(*Cálculo de los lados*)
+	(*Cálculo de los lados de los triángulos*)
 	d12 := distancia(x1, y1, x2, y2);
 	d13 := distancia(x1, y1, x3, y3);
 	d14 := distancia(x1, y1, x4, y4);
