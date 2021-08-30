@@ -10,4 +10,4 @@ BEGIN
 				writeLn ('Termine.')
 			ELSE writeln ('No termino aun.')
 		ELSE writeln ('Nunca llega aqui.')
-END
+END.
