@@ -1,4 +1,4 @@
-PROGRAM Ejercicio5 (output);
+PROGRAM pr07ej05 (output);
 VAR tum, num, temp : Integer;
 
 PROCEDURE Prog (a, b : Integer; VAR c : Integer);
