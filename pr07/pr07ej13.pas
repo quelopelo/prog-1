@@ -33,6 +33,7 @@ begin
 	factor_primo := i;
 end;
 
+(*Programa principal*)
 begin
 
 writeln('Descomposición prima de enteros positivos');
