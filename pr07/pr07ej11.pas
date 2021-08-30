@@ -2,7 +2,7 @@ program pr07ej11;
 
 var	i, m, n : integer;
 
-function es_primo(n : integer) : boolean;
+function es_primo (n : integer) : boolean;
 {Precondición: n >= 2}
 var	i, m : integer;
 begin
@@ -23,6 +23,7 @@ begin
 	end
 end;
 
+(*Programa principal*)
 begin
 
 (*Entrada de datos*)
