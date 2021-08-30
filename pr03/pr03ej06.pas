@@ -1,5 +1,5 @@
 PROGRAM pr03ej06 (output);
-VAR x, y, z : Integer;
+VAR	x, y, z : Integer;
 BEGIN
 	x := 10;
 	y := 11;
