@@ -16,7 +16,7 @@ write('Letras repetidas: ');
 while	c1 <> fin do
 begin
 	read(c2);
-	if c2 = c1
+	if (c2 = c1) and (c1 >= 'a') and (c1 <= 'z')
 	then
 	begin
 		write(c1, c2, ' ');
