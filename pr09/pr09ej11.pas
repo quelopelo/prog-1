@@ -25,22 +25,6 @@ begin
 	readln
 end;
 
-procedure mostrar_cadenaM (var cadM : cadenaM);
-{La cadena se pasa por referencia para usar menos memoria}
-var	i : integer;
-begin
-	for	i := 1 to M do
-		write(cadM[i])
-end;
-
-procedure mostrar_cadenaN (var cadN : cadenaN);
-{La tabla se pasa por referencia para usar menos memoria}
-var	j : integer;
-begin
-	for	j := 1 to N do
-		write(cadN[j])
-end;
-
 function posicion_letra (var cadM : cadenaM; var cadN : cadenaN) : integer;
 {Las cadenas se pasa por referencia para usar menos memoria}
 var	i, j : integer;
