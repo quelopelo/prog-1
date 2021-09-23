@@ -38,11 +38,10 @@ readln (a, b, c);
 raices(a, b, c, x1, x2, cant);
 
 (*Salida de datos*)
-if	cant = 0
-then	writeln('Ninguna raíz real')
-else
-	if	cant = 1
-	then	writeln('Una raíz real doble: ', x1:4:2)
-	else	writeln('Dos raíces reales: ', x1:4:2, ' y ', x2:4:2)
+case	cant of
+	0:	writeln('Ninguna raíz real');
+	1:	writeln('Una raíz real doble: ', x1:4:2);
+	2:	writeln('Dos raíces reales: ', x1:4:2, ' y ', x2:4:2)
+end
 
 end.
