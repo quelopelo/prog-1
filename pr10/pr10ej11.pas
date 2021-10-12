@@ -1,9 +1,11 @@
 program	pr10ej11;
 
-type	vocal = (a, e, i, o, u);
+type
+	vocal = (a, e, i, o, u);
 
-var		letra : vocal; 
-		uncar : Char;
+var
+	letra : vocal; 
+	uncar : char;
 
 begin
 
