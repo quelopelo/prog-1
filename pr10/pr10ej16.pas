@@ -2,7 +2,7 @@ program pr10ej16;
 
 type  complejo = record
                      re, im : real;
-				 end;
+                 end;
 
 var   c1, c2, suma, producto : complejo;
 
