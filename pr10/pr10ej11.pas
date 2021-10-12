@@ -1,16 +1,14 @@
 program	pr10ej11;
 
-type
-	vocal = (a, e, i, o, u);
+type	vocal = (a, e, i, o, u);
 
-var
-	letra : vocal; 
+var	letra : vocal; 
 	uncar : char;
 
 begin
 
 letra := a;
-while letra <= u do
+while	letra <= u do
 begin 
 	read (uncar);
 	writeLn ('El caracter leido es: ', uncar);
