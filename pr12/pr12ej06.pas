@@ -131,6 +131,7 @@ procedure insertarAntes (nuevo, valor : integer; var l : ListaInt);
 {Si no existiera tal elemento, la lista no cambia}
 var p, aux1, aux2 : ListaInt;
 begin
+    aux1 := nil;
     aux2 := l;
     while (aux2 <> nil) and (aux2^.info <> valor) do
     begin
@@ -142,7 +143,10 @@ begin
         new (p);
         p^.info := nuevo;
         p^.sig := aux2;
-        aux1^.sig := p
+        if aux1 <> nil then
+            aux1^.sig := p
+        else
+            l := p
     end
 end;
 
